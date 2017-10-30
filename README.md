@@ -11,10 +11,8 @@ The aim is to use a Raspberry Pi Zero (or Zero W), a pwm expansion board and a f
 * The servos user are [SG90 Micro Servo Motor 9G](https://www.amazon.com/gp/product/B00X7CJZWM/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1). Two per leg for a total of 8 servos.
 
 # Servo Mapping
-* The Servos are mapped in a clock pattern, with 12'oclock facing forward with the quadruped, in the manner described below. 
-*        Front
-*   B   A       A   B
-*  Left 4       1
-*       3       2 Right
-*   B   A       A   B
-*        Rear
+* The Servos are mapped in a clock pattern, with 12'oclock facing forward with the quadruped. The primary servo is designated as 'A' while the secondary (leg) servo is designated as 'B'.
+* Front Right Servos: 1A/1B
+* Rear Right Servos: 2A/2B
+* Rear Left Servos: 3A/3B
+* Front Left Servos: 4A/4B
