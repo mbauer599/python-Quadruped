@@ -31,4 +31,6 @@ channel_FL4B = 4
 servo_min = 150  # Min pulse length out of 4096
 servo_max = 600  # Max pulse length out of 4096
 
+# Set frequency to 60hz, good for servos.
+pwm.set_pwm_freq(60)
 ############################
