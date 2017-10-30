@@ -8,3 +8,6 @@ The aim is to use a Raspberry Pi Zero (or Zero W), a pwm expansion board and a f
 * The control board used is a Raspberry Pi Zero with a WiFi dongle. A Pi 2/3/Zero W could be used interchangably, this is just what I had on hand.
 * The pwm expansion board is a [16 channel Adafruit I2C interface module](https://www.adafruit.com/product/815).
 * The distance sensor used is a [Ultrasonic Module HC-SR04](https://www.sparkfun.com/products/13959).
+
+# Servo Mapping
+* The Servos are mapped in a clock pattern, with 12'oclock facing forward with the quadruped. 
