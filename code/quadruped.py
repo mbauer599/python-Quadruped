@@ -68,3 +68,8 @@ def one_step_forward():
     pwm.set_pwm(channel_FL4A, 0, servo_min)
     pwm.set_pwm(channel_RR2A, 0, servo_min)
     time.sleep(1)
+    
+print('Walking, press Ctrl-C to quit...')
+while True:
+    one_step_forward():
+    
