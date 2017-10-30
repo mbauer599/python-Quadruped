@@ -1,5 +1,14 @@
 #!/bin/python
-# Written by Michael Bauer
+# Written by Michael Bauer, from examples found around the interwebs.
+
+############################
+######### Includes #########
+############################
+
+from __future__ import division
+import time
+
+import Adafruit_PCA9685
 
 ############################
 ##### Global Variables #####
@@ -17,4 +26,9 @@ channel_RL3B = 6
 # Front Left Servos: 4A/4B  Channel: 3/7
 channel_FL4A = 0
 channel_FL4B = 4
+
+# Configure min and max servo pulse lengths
+servo_min = 150  # Min pulse length out of 4096
+servo_max = 600  # Max pulse length out of 4096
+
 ############################
