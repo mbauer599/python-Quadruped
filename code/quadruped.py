@@ -115,7 +115,12 @@ def one_step_forward():
     pwm.set_pwm(channel_FL4A, 0, servo_min)
     pwm.set_pwm(channel_RR2A, 0, servo_min)
     time.sleep(1)
-    
+
+
+############################
+########### Main ###########
+############################
+
 print('Walking, press Ctrl-C to quit...')
 while True:
     # Determine open distance
@@ -133,4 +138,4 @@ while True:
 except KeyboardInterrupt:
     print("Drone Stopped by User...")
     GPIO.cleanup()
-
+########################################################
