@@ -11,6 +11,7 @@ import RPi.GPIO as GPIO
 # Import Division
 from __future__ import division
 
+# Import time function
 import time
 
 # Library for I2C control
