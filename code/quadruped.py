@@ -5,9 +5,13 @@
 ######### Includes #########
 ############################
 
+# Library for Raspberry Pi GPIO
+import RPi.GPIO as GPIO
+
 from __future__ import division
 import time
 
+# Library for I2C control
 import Adafruit_PCA9685
 
 ############################
@@ -33,6 +37,18 @@ servo_max = 600  # Max pulse length out of 4096
 
 # Set frequency to 60hz, good for servos.
 pwm.set_pwm_freq(60)
+
+#GPIO Mode (BOARD / BCM)
+GPIO.setmode(GPIO.BCM)
+
+#set GPIO Pins
+GPIO_TRIGGER = 18
+GPIO_ECHO = 24
+
+#set GPIO direction (IN / OUT)
+GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+GPIO.setup(GPIO_ECHO, GPIO.IN)
+
 ############################
 
 # Helper function to make setting a servo pulse width simpler.
