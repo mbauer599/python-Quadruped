@@ -8,7 +8,7 @@
 # Library for Raspberry Pi GPIO
 import RPi.GPIO as GPIO
 
-# Import Division
+# Import Division function
 from __future__ import division
 
 # Import time function
