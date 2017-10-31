@@ -52,7 +52,7 @@ GPIO_ECHO = 24
 GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
 GPIO.setup(GPIO_ECHO, GPIO.IN)
 
-############################
+########################################################
 
 # Helper function to make setting a servo pulse width simpler.
 def set_servo_pulse(channel, pulse):
