@@ -17,6 +17,9 @@ import Adafruit_PCA9685
 ############################
 ##### Global Variables #####
 ############################
+# Ammount of free space to be allowed in the sensor direction in cm
+stop_dist = 4
+
 # Servo Mappings
 # Front Right Servos: 1A/1B Channel: 0/4
 channel_FR1A = 0
@@ -115,5 +118,10 @@ def one_step_forward():
     
 print('Walking, press Ctrl-C to quit...')
 while True:
-    one_step_forward():
+    # Determine open distance
+    dist = distance()
+
+    # If there's nothing there, take a step forward
+    if dist > 4:
+        one_step_forward():
     
