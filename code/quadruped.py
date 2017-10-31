@@ -125,4 +125,6 @@ while True:
     if dist > 4:
         one_step_forward():
         print ("Moving Forward")
+    else:
+        print ("Waiting...")
     
