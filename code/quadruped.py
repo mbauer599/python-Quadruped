@@ -8,7 +8,9 @@
 # Library for Raspberry Pi GPIO
 import RPi.GPIO as GPIO
 
+# Import Division
 from __future__ import division
+
 import time
 
 # Library for I2C control
