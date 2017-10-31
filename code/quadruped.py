@@ -128,3 +128,9 @@ while True:
     else:
         print ("Waiting...")
     
+    
+# Reset by pressing CTRL + C
+except KeyboardInterrupt:
+    print("Drone Stopped by User...")
+    GPIO.cleanup()
+
