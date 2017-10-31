@@ -31,8 +31,8 @@ channel_RR2B = 5
 channel_RL3A = 2
 channel_RL3B = 6
 # Front Left Servos: 4A/4B  Channel: 3/7
-channel_FL4A = 0
-channel_FL4B = 4
+channel_FL4A = 3
+channel_FL4B = 7
 
 # Configure min and max servo pulse lengths
 servo_min = 150  # Min pulse length out of 4096
