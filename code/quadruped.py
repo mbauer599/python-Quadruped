@@ -124,4 +124,5 @@ while True:
     # If there's nothing there, take a step forward
     if dist > 4:
         one_step_forward():
+        print ("Moving Forward")
     
