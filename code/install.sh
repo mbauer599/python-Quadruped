@@ -9,3 +9,6 @@ fi
 
 # Update the host system
 apt-get update
+
+# Update the pi
+rpi-update
