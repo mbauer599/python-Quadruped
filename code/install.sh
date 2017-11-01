@@ -8,6 +8,15 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Update the host system
+echo "Updating Package Lists.."
+if apt-get update > /dev/null; then
+    echo "Done"
+else
+    echo "Failed Task. Exiting"
+    exit 1
+fi
+
+echo "Updating Package Lists.."
 apt-get update > /dev/null
 
 # Update the pi
