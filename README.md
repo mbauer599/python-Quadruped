@@ -20,3 +20,4 @@ The aim is to use a Raspberry Pi Zero (or Zero W), a pwm expansion board and a f
 # Credits and Resources
 * Adafruit Python Project = https://github.com/adafruit/Adafruit_Python_PCA9685
 * FatKame by Blomdoft = https://github.com/Blomdoft/fatKame
+* 16 channel Adafruit Tutorial = https://cdn-learn.adafruit.com/downloads/pdf/16-channel-pwm-servo-driver.pdf
