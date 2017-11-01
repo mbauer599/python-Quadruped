@@ -13,6 +13,3 @@ apt-get update > /dev/null
 # Update the pi
 rpi-update > /dev/null
 
-# Install or upgrade Git
-apt-get install git -y > /dev/null
-
