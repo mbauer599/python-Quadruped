@@ -18,5 +18,5 @@ The aim is to use a Raspberry Pi Zero (or Zero W), a pwm expansion board and a f
 * Front Left Servos: 4A/4B
 
 # Credits and Resources
-
+* Adafruit Python Project = https://github.com/adafruit/Adafruit_Python_PCA9685
 
