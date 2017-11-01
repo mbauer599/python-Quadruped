@@ -17,6 +17,6 @@ The aim is to use a Raspberry Pi Zero (or Zero W), a pwm expansion board and a f
 * Rear Left Servos: 3A/3B
 * Front Left Servos: 4A/4B
 
-# Credits
+# Credits and Resources
 
 
