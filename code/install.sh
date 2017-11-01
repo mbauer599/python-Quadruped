@@ -8,7 +8,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Update the host system
-apt-get update
+apt-get update > /dev/null
 
 # Update the pi
-rpi-update
+rpi-update > /dev/null
