@@ -23,6 +23,9 @@ import Adafruit_PCA9685
 # Ammount of free space to be allowed in the sensor direction in cm
 stop_dist = 4
 
+# Delay value in seconds
+delay = 1
+
 # Servo Mappings
 # Front Right Servos: 1A/1B Channel: 0/4
 channel_FR1A = 0
