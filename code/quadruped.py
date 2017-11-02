@@ -119,24 +119,22 @@ def one_step_forward():
     pwm.set_pwm(channel_RR2A, 0, servo_min)
     time.sleep(1)
 
-
 ############################
 ########### Main ###########
 ############################
-
 print('Walking, press Ctrl-C to quit...')
-while True:
-    # Determine open distance
-    dist = distance()
+try:
+    while True:
+        # Determine open distance
+        dist = distance()
 
-    # If there's nothing there, take a step forward
-    if dist > 4:
-        one_step_forward():
-        print ("Moving Forward")
-    else:
-        print ("Waiting...")
-    
-    
+        # If there's nothing there, take a step forward
+        if dist > 4:
+            one_step_forward():
+            print ("Moving Forward")
+        else:
+            print ("Waiting...")
+
 # Reset by pressing CTRL + C
 except KeyboardInterrupt:
     print("Drone Stopped by User...")
