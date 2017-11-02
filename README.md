@@ -27,3 +27,7 @@ If you're new to drones or coding, I would highly encourage the research before 
 
 # Disclaimer
 This project comes with no waranty and the owners do not claim to own or maintain any refrenced projects. Use at your own risk.
+
+# Working on
+* Add to install script - Raspberry Pi enable GPIO pins
+* Add to python code - Right turn function on distance sensor trigger, function and call
