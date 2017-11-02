@@ -44,6 +44,9 @@ channel_FL4B = 7
 servo_min = 150  # Min pulse length out of 4096
 servo_max = 600  # Max pulse length out of 4096
 
+# Initialise the PCA9685 using the default address (0x40).
+pwm = Adafruit_PCA9685.PCA9685()
+
 # Set frequency to 60hz, good for servos.
 pwm.set_pwm_freq(60)
 
