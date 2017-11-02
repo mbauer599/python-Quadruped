@@ -26,6 +26,7 @@ else
 fi
 
 # Install build-essential
+echo "Installing build-essential..."
 if apt-get install build-essential -y > /dev/null; then
     echo "Done"
 else
@@ -34,6 +35,7 @@ else
 fi
 
 # Install python-dev
+echo "python-dev..."
 if apt-get install python-dev -y > /dev/null; then
     echo "Done"
 else
@@ -42,6 +44,7 @@ else
 fi
 
 # Install python-smbus
+echo "python-smbus..."
 if apt-get install python-smbus -y > /dev/null; then
     echo "Done"
 else
@@ -50,6 +53,7 @@ else
 fi
 
 # Install PWM Expansion Board Requirements
+echo "i2c-tools..."
 if apt-get install i2c-tools -y > /dev/null; then
     echo "Done"
 else
