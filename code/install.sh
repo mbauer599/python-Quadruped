@@ -25,4 +25,10 @@ else
     exit 1
 fi
 
-
+# Install python-smbus
+if apt-get install python-smbus -y > /dev/null; then
+    echo "Done"
+else
+    echo "Failed Task. Exiting"
+    exit 1
+fi
