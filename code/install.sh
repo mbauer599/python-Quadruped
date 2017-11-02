@@ -32,3 +32,11 @@ else
     echo "Failed Task. Exiting"
     exit 1
 fi
+
+# Install PWM Expansion Board Requirements
+if apt-get install i2c-tools -y > /dev/null; then
+    echo "Done"
+else
+    echo "Failed Task. Exiting"
+    exit 1
+fi
