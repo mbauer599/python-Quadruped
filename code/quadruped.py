@@ -136,7 +136,7 @@ try:
 
         # If there's nothing there, take a step forward
         if dist > 4:
-            one_step_forward():
+            one_step_forward()
             print ("Moving Forward")
         else:
             print ("Waiting...")
