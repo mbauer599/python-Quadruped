@@ -25,6 +25,14 @@ else
     exit 1
 fi
 
+# Install build-essential
+if apt-get install build-essential -y > /dev/null; then
+    echo "Done"
+else
+    echo "Failed Task. Exiting"
+    exit 1
+fi
+
 # Install python-smbus
 if apt-get install python-smbus -y > /dev/null; then
     echo "Done"
