@@ -1,5 +1,7 @@
 #!/bin/python
 # Written by Michael Bauer, from examples found around the interwebs.
+#   For refrenced sources, see my GitHub here: 
+#   https://github.com/mbauer599/python-Quadruped
 
 ############################
 ######### Includes #########
