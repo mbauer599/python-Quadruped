@@ -142,6 +142,7 @@ try:
             print ("Moving Forward")
         else:
             print ("Waiting...")
+            time.sleep(delay)
 
 # Reset by pressing CTRL + C
 except KeyboardInterrupt:
