@@ -10,7 +10,7 @@ If you're new to drones or coding, I would highly encourage the research before 
 * The control board used is a Raspberry Pi Zero with a WiFi dongle. A Pi 2/3/Zero W could be used interchangably, this is just what I had on hand.
 * The pwm expansion board is a [16 channel Adafruit I2C interface module](https://www.adafruit.com/product/815).
 * The distance sensor used is a [Ultrasonic Module HC-SR04](https://www.sparkfun.com/products/13959).
-* The servos user are [SG90 Micro Servo Motor 9G](https://www.amazon.com/gp/product/B00X7CJZWM/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1). Two per leg for a total of 8 servos.
+* The servos used are [SG90 Micro Servo Motor 9G](https://www.amazon.com/gp/product/B00X7CJZWM/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1). Two per leg for a total of 8 servos.
 
 # Servo Mapping
 * The Servos are mapped in a clock pattern, with 12'oclock facing forward with the quadruped. The primary servo is designated as 'A' while the secondary (leg) servo is designated as 'B'.
